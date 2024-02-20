@@ -14,6 +14,10 @@ class CategoriesUpdateAction
     ){}
 
 
+    /**
+     * @param CategoriesDto $categoriesDto
+     * @return JsonResponse|bool
+     */
     public function run(CategoriesDto $categoriesDto): JsonResponse | bool
     {
         try {
